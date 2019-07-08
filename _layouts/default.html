@@ -1,15 +1,13 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
 <html>
-    {% include head.html %}
-    <body id="page-top" class="index">
-    {% include nav.html %}
-    {% include header.html %}
-    {% include about.html %}
-    {% include resume.html %}
-    {% include project.html %}
-    {% include contact.html %}
-    {% include footer.html %}
-    {% include modals.html %}
-    {% include js.html %}
-    </body>
+<head>
+  {% include head.html %}
+</head>
+<body>
+  {{ content }}
+  {% include scripts.html %}
+</body>
 </html>
